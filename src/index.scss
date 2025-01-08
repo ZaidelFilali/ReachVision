@@ -1,0 +1,135 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$font-family-main: "Ubuntu Mono", monospace;
+$font-family-alt: "Ubuntu Mono", serif;
+$textKleur: #48392e;
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#content {
+  flex: 1 0 auto;
+  padding-bottom: 50px; 
+}
+
+#footer {
+  margin-top: auto;
+}
+
+body {
+  font-family: $font-family-main;
+}
+
+#logo {
+  height: 65px;
+}
+
+#Homepagefoto {
+  height: 900px;
+  background-image: url('/images/Hoofdpaginafoto.png');
+  margin-top: -150px;
+  display: flex;
+  background-size: cover; /* Schaal de afbeelding zodat deze de hele container vult */
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#Homepagefoto img {
+  height: 100%; /* Zorg ervoor dat de afbeelding de volledige hoogte van de container vult */
+  width: auto; /* Behoud de originele beeldverhouding */
+  object-fit: cover; /* Schaal de afbeelding om de container te vullen */
+}
+
+.text-large-bold {
+  font-family: $font-family-main;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.text-medium-regular {
+  font-family: $font-family-alt;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.text-medium-bold {
+  font-family: $font-family-alt;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#Hoofdtext,
+#Cloud {
+  @extend .text-large-bold;
+  color: rgb(235, 233, 247)
+}
+
+#text1,
+#kaas1 {
+  @extend .text-medium-regular;
+}
+
+#kaas {
+  @extend .text-medium-bold;
+}
+
+.img-rounded {
+  border-radius: 10px;
+}
+
+#Kleinefoto {
+  height: 300px;
+  @extend .img-rounded;
+}
+
+#Kleinefoto1 {
+  height: 250px;
+  width: 400px;
+  @extend .img-rounded;
+}
+
+#Container1 {
+  background-color: #cfb997;
+  padding: 10px 0;
+}
+
+#Container2 {
+  height: 450px;
+}
+
+#Container3 {
+  min-height: 800px;
+  height: auto; 
+  background-color: #f5f6fa;
+  padding: 20px 0; 
+}
+
+#Pricing {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+#Pricing h2 {
+  font-family: $font-family-alt;
+  font-size: 30px;
+}
+
+#Pricing .card-title {
+  font-family: $font-family-alt;
+  font-size: 24px;
+}
+
+#Pricing .card-text {
+  font-family: $font-family-main;
+  font-size: 16px;
+}
+
+#Pricing .btn-primary {
+  padding: 10px 20px;
+  font-size: 16px;
+}
