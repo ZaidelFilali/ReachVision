@@ -1,6 +1,11 @@
 import React from "react";
-import { Row, Container, Col, Card, Button } from "react-bootstrap";
 import { FaCheck, FaInstagram, FaRocket, FaBullhorn } from "react-icons/fa";
+import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
+
 
 function Homepagina() {
   return (

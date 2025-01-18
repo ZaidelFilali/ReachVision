@@ -1,5 +1,8 @@
-import { Navbar, Container, Nav, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import Container from "react-bootstrap/Container";
+import Card from "react-bootstrap/Card"
 
 function Navigation() {
   return (

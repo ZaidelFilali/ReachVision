@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Container, Form, Button } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 import { useLocation } from "react-router-dom";
 
 function Inschrijven() {
